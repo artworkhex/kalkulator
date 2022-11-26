@@ -21,16 +21,6 @@ body {
   height: 30px;
 }
 
-header {
-  background-image: url(/asset/header1.jpg);
-  bakground-color: rgb(39, 39, 39);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
-}
-
 .s {
   width: 100%;
   height: 550px;
@@ -53,14 +43,6 @@ header {
 
 .lg-judul {
   width: 700px;
-}
-
-.iklan {
-  width: 100%;
-  background-image: url(/asset/bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .kuyang {
