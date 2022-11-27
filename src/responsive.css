@@ -1,5 +1,5 @@
 header {
-  background-image: url(asset/header1.jpg);
+  background-image: url(/asset/header1.jpg);
   bakground-color: rgb(39, 39, 39);
   background-position: center;
   background-size: cover;
@@ -9,7 +9,7 @@ header {
 }
 .iklan {
   width: 100%;
-  background-image: url(asset/bg.png);
+  background-image: url(/asset/bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
