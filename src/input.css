@@ -32,9 +32,6 @@ body {
   background-color: rgb(59, 59, 59);
 }
 
-.mockup1 {
-  width: 500px;
-}
 
 .medsos {
   width: 40px;
@@ -48,6 +45,10 @@ body {
 .kuyang {
   width: 300px;
   height: auto;
+}
+
+.mockup1 {
+  width: 700px;
 }
 
 .mockup2 {
@@ -67,4 +68,10 @@ body {
   display: flex;
   text-align: center;
   justify-items: center;
+}
+
+
+.judhed {
+  writing-mode: vertical-lr;
+  text-combine-upright: digits 2;
 }
