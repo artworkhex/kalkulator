@@ -1,4 +1,3 @@
-
 module.exports = {
   content: [
     './index.html',
@@ -7,7 +6,7 @@ module.exports = {
   theme: {
     screens: {
       sm1: "480px",
-      sm2: "600x",
+      sm2: "600px",
       md1: "788px",
       md2: "888px",
       lg1: "976px",
