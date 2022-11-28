@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 header {
-  background-image: url(../asset/header1.jpg);
+  background-image: url(../../asset/header1.jpg);
 }
 .iklan {
   background-image: url(../asset/bg.png);
