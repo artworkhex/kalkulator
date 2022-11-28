@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  background-image: url(/asset/header1.jpg);
+}
+.iklan {
+  background-image: url(/asset/bg.png);
+}
+.bd {
+  writing-mode: vertical-lr;
+  text-combine-upright: digits 2;
+  text-align: center;
+}
