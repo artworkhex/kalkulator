@@ -5,141 +5,146 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="src/output.css" rel="stylesheet" />
-    <link rel="stylesheet" href="src/responsive.css">
 </head>
 
-<body class="text-white bg-zinc-800 ">
-    <header class=" text-white mb-20 bg-center bg-cover bg-no-repeat w-screen h-screen	">
+<body class="text-white bg-zinc-800">
+    <header class="text-white mb-20 bg-center bg-cover bg-no-repeat w-screen h-screen">
         <!-- navbar -->
-        <div class="flex p-4 text-center items-center w-full justify-between sm1:hidden sm2:hidden md1:hidden md2:hidden lg1:flex  ">
+        <nav class="p-7 w-screen justify-between flex">
             <div id="home">
-                <a href="#">
-                    <img class="ml-11 w-[180px] sm1:w-[150px] sm2:w-[170px] md1:w-[180px] md2:w-[190px] lg1:w-[200px]"
-                        src="asset/logo.png" alt="" />
+                <a href="https://artworkhex.github.io/awh/">
+                    <img class="ml-5 w-[130px] md2:w-[200]" src="asset/logo.png" alt="" />
                 </a>
             </div>
-            <div class=" mx-10 text-xl font-ligh ">
-                <a class="ml-10 hover:text-rose-700 " href="#home">Home</a>
-                <a class="ml-10 hover:text-rose-700 " href="#product">Product</a>
-                <a class="ml-10 hover:text-rose-700 " href="#enemy">About</a>
-                <a class="ml-10 mr-20 hover:text-rose-700 " href="#Contact">Contact</a>
+            <div class="hidden md2:flex">
+                <a class="mx-3 hover:text-rose-700" href="#home">Home</a>
+                <a class="mx-3 hover:text-rose-700" href="#product">Product</a>
+                <a class="mx-3 hover:text-rose-700" href="#enemy">About</a>
+                <a class="mx-3 mr-8 hover:text-rose-700" href="#Contact">Contact</a>
             </div>
-        </div>
-        <div class="ml-5 bottom-0 absolute mb-5 bd">
-            di buat oleh artworkhex
-        </div>
+        </nav>
+        <div class="ml-5 bottom-0 absolute mb-5 bd">di buat oleh artworkhex</div>
     </header>
 
+
+
+
     <!-- perkenalan -->
-    <div class=" grid-cols-2 gap-3 mt-30 rat-baw lg1:mb-15 lg1:flex">
-        <div class="ml-10 mt-10 mr-20  ">
-            <div class=" font-bold mb-10 ml-10 sm1:text-2xl md1:text-4xl lg1:text-5xl ">What <span class="font-light">
-                    is
-                    setan
-                    ?
-                </span></div>
-            <div class="text-xl sm1:text-xs md1:text-sm lg1:text-xl ">
-                Perkenalkan ini adalah game setan season 1 dan season 2 berawal saat saya diberi tugas membuat
-                game seadanya dan terciptalah game setan season 1 saat ini game setan S1 telah di update dan
-                rilislah game setan S2
-                <br><br>
-                Melanjutkan game setan season 1 yang cukup menarik dan mendapatkan penghargaan game oleh kepala
-                sekolah smp telkom. Saat ini game setan s2 kembali menceritakan perjalanan seorang anak yang tersesat
-                di hutan dia selalu tersesat saat ingin keluar dari dimensi lain.
+    <div class="block md1:flex grid-cols-2 gap-3 mt-30 items-center mx-5 md1:px-10 mt-5">
+        <div class="">
+            <div class="font-bold mb-3 ml-5 text-2xl sm2:text-4xl lg1:text-5xl lg1:mb-7">
+                What <span class="font-light"> is setan ? </span>
+            </div>
+            <div class="text-xs sm1:text-sm sm2:text-base lg1:text-xl mb-10">
+                Perkenalkan ini adalah game setan season 1 dan season 2 berawal saat
+                saya diberi tugas membuat game seadanya dan terciptalah game setan
+                season 1 saat ini game setan S1 telah di update dan rilislah game
+                setan S2
+                <br /><br />
+                Melanjutkan game setan season 1 yang cukup menarik dan mendapatkan
+                penghargaan game oleh kepala sekolah smp telkom. Saat ini game setan
+                s2 kembali menceritakan perjalanan seorang anak yang tersesat di hutan
+                dia selalu tersesat saat ingin keluar dari dimensi lain.
             </div>
         </div>
-        <img class="w-[500px] sm1:w-[310px] sm2:w-[400px] md1:w-[450px] md2:w-[530px] lg1:w-[600px]"
-            src="asset/mockup1.png" alt="" />
+        <img class="w-[620px] sm1:w-[500px] lg1:w-[620px]" src="asset/mockup4.png" alt="" />
     </div>
+
 
 
     <!-- judul utama 1 -->
-    <div id="product" class=" font-bold px-20 mt-20 mb-10 sm1:text-2xl md1:text-3xl lg1:text-5xl ">
+    <div id="product" class="font-bold px-10 mt-20 mb-10 ml-5 lg1:ml-10 text-3xl sm2:text-5xl">
         The Product
     </div>
 
+
+
     <!-- konten 1 / produk 1 /season 1 -->
-    <div class="px-10 lg1:px-5 lg1:mb-15 ">
-        <div class="flex mt-10 w-screen text-center ">
-            <img class="sm1:w-[450px] sm2:w-[560px] md1:w-[740px] md2:w-[820px] lg1:w-[1200px] xl:w-[1200px] "
+    <div class="px-5 md1:px-12">
+        <div class="mt-10 text-center flex">
+            <img class="w-[370px] sm1:w-[400px] sm2:w-[480px] md1:w-[650px] md2:w-[750px] lg1:w-[1150px]"
                 src="asset/s1.png" alt="" />
-            <a class="bd ml-3 text-center sm1:hidden md1:hidden lg1:flex font-light bg-neutral-700 hover:bg-neutral-800 md1:text-3xl lg1:text-5xl  lg1:w-[70px] "
+            <a class="bd hidden ml-3 text-center font-light bg-neutral-700 hover:bg-neutral-800 sm2:block md2:w-[100px] md1:text-6xl pl-5"
                 href="#">download</a>
         </div>
-        <div class=" mt-10 font-bo1d ml-10 sm1:text-2xl md1:text-4xl lg1:text-5xl ">Setan <span class="font-light ">
-                Season
-                1
-            </span></div>
-        <div class="mt-6 mb-36 sm1:text-xs md1:text-sm lg1:text-xl ">
-            Setan season 1 adalah game pertama yang saya buat di umur 15 tahun. Semua asset ini dibuat di
-            platform adobe photoshop cc 2020.
-            <br><br>
-            Game ini menceritakan tentang anak kecil yang tersesat namun dia belum tahu alasan dia tersesat,
-            sebelumnya anak kecil tersebut sedang bermain dengan temannya dan sedang bermain hantu hantuan
+        <div class="mt-5 font-bold ml-5 text-2xl sm2:text-4xl lg1:text-5xl lg1:mb-7">
+            Setan <span class="font-light"> Season 1 </span>
+        </div>
+        <div class="mt-3 mb-20 text-xs sm1:text-sm sm2:text-base lg1:text-xl">
+            Setan season 1 adalah game pertama yang saya buat di umur 15 tahun.
+            Semua asset ini dibuat di platform adobe photoshop cc 2020.
+            <br /><br />
+            Game ini menceritakan tentang anak kecil yang tersesat namun dia belum
+            tahu alasan dia tersesat, sebelumnya anak kecil tersebut sedang bermain
+            dengan temannya dan sedang bermain hantu hantuan
         </div>
     </div>
     <!-- konten 1 / produk 2 / seson 2 -->
-    <div class="px-10 lg1:px-5 lg1:mb-15">
-        <div class="flex mt-10 w-screen ">
-            <a class="bd mr-3 text-center sm1:hidden md1:hidden lg1:flex font-light bg-neutral-700 hover:bg-neutral-800 md1:text-3xl lg1:text-5xl lg1:w-[70px] "
-                href=" ">download</a>
-            <img class="sm1:w-[450px] sm2:w-[560px] md1:w-[740px] md2:w-[820px] lg1:w-[1050px] xl:w-[1500px] "
+    <div class="px-5 md1:px-12">
+        <div class="flex">
+            <a class="bd hidden mr-3 text-center font-light bg-neutral-700 hover:bg-neutral-800 sm2:block md2:w-[100px] md1:text-6xl pl-5"
+                href=" #">download</a>
+            <img class="w-[370px] sm1:w-[400px] sm2:w-[480px] md1:w-[650px] md2:w-[750px] lg1:w-[1150px]"
                 src="asset/s2.png" alt="" />
         </div>
-        <div class="text-right  ">
-            <div class=" mt-10 font-bold ml-10 mr-10 sm1:text-3xl md1:text-4xl  lg1:text-5xl  ">Setan <span
-                    class="font-light ">
-                    Season 2 </span></div>
-            <div class=" mt-6 mb-36 sm1:text-xs md1:text-sm lg1:text-xl">
+        <div class="text-right">
+            <div class="mt-5 font-bold mr-5 text-2xl sm2:text-4xl lg1:text-5xl lg1:mb-7">
+                Setan <span class="font-light"> Season 2 </span>
+            </div>
+            <div class="mt-3 mb-20 text-xs sm1:text-sm sm2:text-base lg1:text-xl">
                 Game setan season 2 adalah game lanjutan dari game setan season 1
-                <br><br>
+                <br /><br />
                 saat ini anak tersebut sadar bahwa dia telah diculik makhluk halus dan
                 dibawa ke hutan indonesia yang gelap, sunyi, dan menakutkan. Tidak ada
-                manusia lain, dia tidak punya pilihan selain berjuang sendirian mencari
-                jalan keluar namun selalu bertemu portal portal yang membingungkan.
+                manusia lain, dia tidak punya pilihan selain berjuang sendirian
+                mencari jalan keluar namun selalu bertemu portal portal yang
+                membingungkan.
             </div>
         </div>
     </div>
 
+
+
     <!-- iklan -->
-    <div
-        class="px-10 lg1:px-5 iklan flex grid-cols-2 tengah justify-between bg-center bg-cover bg-no-repeat w-screen lg1:mb-15 ">
+    <div class="bg-zinc-900 py-10 px-5 md1:px-10 py-5 flex grid-cols-2 items-center justify-between w-screen">
         <div>
-            <div class="text-bold mt-10 font-bold ml-10 sm1:text-2xl md1:text-4xl lg1:text-5xl">Hai <span
-                    class="font-light ">
-                    kamu!</span> </div>
-            <br>
-            <div class=" sm1:text-xs md1:text-sm lg1:text-xl">
+            <div class="text-xl font-bold sm2:text-4xl">
+                Hai <span class="font-light"> kamu!</span>
+            </div>
+            <br />
+            <div class="text-xs sm2:text-xl">
                 rasakan sensasi yang berbeda di setiap level
-                <br>
-                <span class="text-blue-200"> tunggu apa lagi? coba sekarang!</span>
+                <br />
+                <span class="text-blue-200 hidden sm2:block">
+                    tunggu apa lagi? coba sekarang!</span>
             </div>
         </div>
         <div>
-            <img class=" mx-10 my-10 right-0 sm1:w-[150px] md1:w-[200px] lg1:w-[300px] " src="asset/kuy.png" alt="">
+            <img class="mx-10 right-0 w-[100px] sm2:w-[300px]" src="asset/kuy.png" alt="" />
         </div>
     </div>
 
 
 
     <!-- judul utama 2 -->
-    <div id="enemy" class=" font-bold px-20 mt-10 mb-20 ml-10 sm1:text-2xl md1:text-3xl lg1:text-5xl">
-        Top enemy asset
+    <div id="enemy" class="font-bold px-10 mt-10 mb-6 ml-5 lg1:ml-10 text-3xl sm2:text-5xl lg1:mb-20">
+        Top enemy
     </div>
 
-    <!-- konten 2 / enemy -->
-    <div class="mx-10 my-20 lg1:flex">
-        <img class="mockup2 sm1:w-[450px] sm2:w-[500px] md1:w-[550px] md2:w-[570px] lg1:w-[610px] "
-            src="asset/mockup2.png" alt="">
-        <div class="ml-20 ">
-            <div class="text-4xl ml-10 font-bold  sm1:text-3xl md1:text-4xl lg1:text-5xl ">
-                Asset <span class="font-light "> in game</span>
-            </div>
-            <br>
-            <div class="sm1:text-xs md1:text-sm lg1:text-xl ">
-                saat ini game setan menggunakan lebih dari 100 asset. musuh terpopuler adalah
-                pocong, kuntilanank, kuyang dan babi hutan
 
+
+    <!-- konten 2 / enemy -->
+    <div class="mx-5 md1:px-10 block sm2:flex items-center">
+        <img class="w-[400px] sm1:w-[370px] sm2:w-[300px] md1:w-[540px] md2:w-[560px] lg1:w-[600px]"
+            src="asset/mockup2.png" alt="" />
+        <div class="ml-5 mt-5">
+            <div class="text-xl ml-5 font-bold sm2:text-4xl lg1:text-5xl lg1:mb-7">
+                Asset <span class="font-light"> in game</span>
+            </div>
+            <br />
+            <div class="text-xs sm1:text-sm sm2:text-base lg1:text-xl">
+                saat ini game setan menggunakan lebih dari 100 asset. musuh terpopuler
+                adalah pocong, kuntilanank, kuyang dan babi hutan
             </div>
         </div>
     </div>
@@ -147,44 +152,47 @@
 
 
     <!-- footer -->
-    <footer class="mt-20 bg-zinc-900 ">
-        <br>
-        <div id="Contact" class="mx-20 text-2xl mt-20 ">
+    <footer class="mt-20 bg-zinc-900">
+        <br />
+        <div id="Contact" class="mx-5 md2:mx-10 text-2xl mt-20">
             <div>
-                <img class="w-[200px] mt-10 mb-5" src="asset/logo.png" alt="">
-                <div class="text-xl sm1:text-xs md1:text-sm lg1:text-xl ">
-                    Game dibuat menggunakan platform <a href="https://editor.gdevelop.io/"> GDevelop 5.</a>
-                    <br><br>
-                    hubungi kami jika terdapat bug atau error di dalam web ini ataupun di dalam game
-                    dan semoga anda puas dengan hasilnya
-                    <br><br>
+                <img class="w-[200px] mt-10 mb-5" src="asset/logo.png" alt="" />
+                <div class="text-sm md2:text-xl">
+                    Game dibuat menggunakan platform
+                    <a href="https://editor.gdevelop.io/"> GDevelop 5.</a> <br /><br />
+                    hubungi kami jika terdapat bug dan error
+                    <br /><br />
                     follow us
                 </div>
             </div>
-            <div class="flex mt-20 justify-between pb-10 items-center">
+            <div class="flex mt-10 justify-between pb-10 items-center text-xs md2:text-xl">
                 <!-- season 1 dan 2 -->
                 <div>
-                    <span class="ml-10 mr-10 mb-5 sm1:text-xs md1:text-sm lg1:text-xl ">
-                        <a href="#"> Setan Season 1 </a>
+                    <span class="mr-3 mb-5">
+                        <a href="#">
+                            <span class="hidden md2:inline-flex"> download </span> Setan S1
+                        </a>
                     </span>
                     I
-                    <span class="ml-10 sm1:text-xs md1:text-sm lg1:text-xl ">
-                        <a href="#"> Setan Season 2 </a>
+                    <span class="ml-3">
+                        <a href="#">
+                            <span class="hidden md2:inline-flex"> download </span> Setan S2
+                        </a>
                     </span>
                 </div>
                 <!-- footer icon -->
-                <div class="flex mr-10 ">
-                    <a href="#">
-                        <img class="sm1:w-[20px] md1:w-[30px] lg1:w-[40px] ml-5" src="asset/medsos/1 (1).png" alt="" />
+                <div class="flex mr-10 items-center">
+                    <a href="https://www.instagram.com/artworkhex_ofc/">
+                        <img class="w-[20px] md2:w-[30px] ml-3 md2:ml-5" src="asset/medsos/instagram.png" alt="" />
                     </a>
-                    <a href="#">
-                        <img class="sm1:w-[20px] md1:w-[30px] lg1:w-[40px] ml-5" src="asset/medsos/1 (2).png" alt="" />
+                    <a href="https://www.youtube.com/channel/UChSq1GJ6ikwdUflQk5LE9Aw">
+                        <img class="w-[20px] md2:w-[30px] ml-3 md2:ml-5" src="asset/medsos/youtube.png" alt="" />
                     </a>
-                    <a href="#">
-                        <img class="sm1:w-[20px] md1:w-[30px] lg1:w-[40px] ml-5" src="asset/medsos/1 (3).png" alt="" />
+                    <a href="https://artworkhex.github.io/awh/">
+                        <img class="w-[20px] md2:w-[30px] ml-3 md2:ml-5" src="asset/medsos/website.png" alt="" />
                     </a>
-                    <a href="#">
-                        <img class="sm1:w-[20px] md1:w-[30px] lg1:w-[40px] ml-5" src="asset/medsos/1 (4).png" alt="" />
+                    <a href="https://www.facebook.com/artworkhex">
+                        <img class="w-[20px] md2:w-[30px] ml-3 md2:ml-5" src="asset/medsos/facebook.png" alt="" />
                     </a>
                 </div>
             </div>
