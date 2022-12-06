@@ -600,10 +600,6 @@ video {
   margin-right: 2.5rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
 .block {
   display: block;
 }
@@ -856,8 +852,16 @@ header {
 }
 
 @media (min-width: 688px) {
+  .md1\:block {
+    display: block;
+  }
+
   .md1\:flex {
     display: flex;
+  }
+
+  .md1\:hidden {
+    display: none;
   }
 
   .md1\:w-\[650px\] {
@@ -873,29 +877,9 @@ header {
     padding-right: 2.5rem;
   }
 
-  .md1\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .md1\:px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
-
-  .md1\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
-
   .md1\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
-  }
-
-  .md1\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 
   .md1\:text-6xl {
@@ -922,6 +906,10 @@ header {
     display: inline-flex;
   }
 
+  .md2\:hidden {
+    display: none;
+  }
+
   .md2\:w-\[200\] {
     width: 200;
   }
@@ -936,18 +924,6 @@ header {
 
   .md2\:w-\[560px\] {
     width: 560px;
-  }
-
-  .md2\:w-\[40px\] {
-    width: 40px;
-  }
-
-  .md2\:w-\[px\] {
-    width: px;
-  }
-
-  .md2\:w-\[35px\] {
-    width: 35px;
   }
 
   .md2\:w-\[30px\] {
@@ -965,12 +941,16 @@ header {
     margin-bottom: 1.75rem;
   }
 
+  .lg1\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
   .lg1\:mb-20 {
     margin-bottom: 5rem;
   }
 
-  .lg1\:ml-10 {
-    margin-left: 2.5rem;
+  .lg1\:hidden {
+    display: none;
   }
 
   .lg1\:w-\[620px\] {
@@ -993,5 +973,11 @@ header {
   .lg1\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1276px) {
+  .lg2\:hidden {
+    display: none;
   }
 }
