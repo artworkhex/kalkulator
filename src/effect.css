@@ -41,3 +41,17 @@
 		opacity: 1;
 	}
 }
+
+
+/* font color */
+.font-judul {
+
+	color: #ba1a1a;
+	background-image: -webkit-linear-gradient(45deg, #ba1a1a 0%, #f28888 94%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;
+  
+  
+}
