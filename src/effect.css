@@ -1,0 +1,43 @@
+.an-left {
+    animation: myAnim 3s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.an-top{
+    animation: myAnim2 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim2 {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.an-center {
+    animation: myAnim3 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim3 {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
