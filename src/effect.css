@@ -1,22 +1,23 @@
 .an-left {
-    animation: myAnim 3s ease 0s 1 normal forwards;
+	animation: myAnim 4s ease 0s 1 normal forwards;
 }
 
 @keyframes myAnim {
-    0% {
-        opacity: 0;
-        transform: translateX(50px);
-    }
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
 
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
-.an-top{
-    animation: myAnim2 2s ease 0s 1 normal forwards;
+.an-top {
+	animation: myAnim2 4s ease 0s 1 normal forwards;
 }
+
 @keyframes myAnim2 {
 	0% {
 		opacity: 0;
@@ -30,8 +31,9 @@
 }
 
 .an-center {
-    animation: myAnim3 2s ease 0s 1 normal forwards;
+	animation: myAnim3 4s ease 0s 1 normal forwards;
 }
+
 @keyframes myAnim3 {
 	0% {
 		opacity: 0;
@@ -52,6 +54,6 @@
 	-webkit-background-clip: text;
 	text-fill-color: transparent;
 	-webkit-text-fill-color: transparent;
-  
-  
+
+
 }
