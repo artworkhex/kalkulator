@@ -552,6 +552,16 @@ video {
   margin-right: 2.5rem;
 }
 
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -612,6 +622,10 @@ video {
   margin-right: 2.5rem;
 }
 
+.mb-11 {
+  margin-bottom: 2.75rem;
+}
+
 .block {
   display: block;
 }
@@ -626,6 +640,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[100px\] {
+  height: 100px;
 }
 
 .w-screen {
@@ -712,6 +730,11 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
+.bg-stone-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 25 23 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -764,6 +787,10 @@ video {
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
 }
 
 .text-center {
@@ -851,6 +878,10 @@ video {
     width: 370px;
   }
 
+  .sm1\:justify-between {
+    justify-content: space-between;
+  }
+
   .sm1\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -870,6 +901,10 @@ video {
     width: 200px;
   }
 
+  .sm2\:w-\[350px\] {
+    width: 350px;
+  }
+
   .sm2\:w-\[480px\] {
     width: 480px;
   }
@@ -878,16 +913,8 @@ video {
     width: 300px;
   }
 
-  .sm2\:w-\[\] {
-    width: ;
-  }
-
-  .sm2\:w-\[400px\] {
-    width: 400px;
-  }
-
-  .sm2\:w-\[350px\] {
-    width: 350px;
+  .sm2\:justify-between {
+    justify-content: space-between;
   }
 
   .sm2\:text-4xl {
@@ -928,12 +955,12 @@ video {
     width: 650px;
   }
 
-  .md1\:w-\[540px\] {
-    width: 540px;
-  }
-
   .md1\:w-\[440px\] {
     width: 440px;
+  }
+
+  .md1\:justify-between {
+    justify-content: space-between;
   }
 
   .md1\:px-10 {
@@ -962,10 +989,6 @@ video {
     margin-left: 1.25rem;
   }
 
-  .md2\:block {
-    display: block;
-  }
-
   .md2\:flex {
     display: flex;
   }
@@ -990,16 +1013,16 @@ video {
     width: 100px;
   }
 
-  .md2\:w-\[560px\] {
-    width: 560px;
+  .md2\:w-\[460px\] {
+    width: 460px;
   }
 
   .md2\:w-\[30px\] {
     width: 30px;
   }
 
-  .md2\:w-\[460px\] {
-    width: 460px;
+  .md2\:justify-between {
+    justify-content: space-between;
   }
 
   .md2\:text-xl {
