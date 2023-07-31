@@ -15,6 +15,11 @@
       href="asset/white.png"
       media="(prefers-color-scheme: dark)"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
     <title>Game Setan Official</title>
   </head>
 
@@ -54,7 +59,7 @@
           <a
             class="mx-3 items-center mr-8 hover:text-rose-500 hover:bg-transparent hover:border-rose-500 border-2 text-black bg-white rounded px-3"
             href="pertanyaan/index.html"
-            >Credits</a
+            >Hak Cipta</a
           >
         </div>
       </nav>
@@ -74,6 +79,9 @@
           The <span class="font-light">Setan Games </span>
         </div>
         <div class="text-xs sm1:text-sm sm2:text-base lg1:text-2xl mb-10">
+          game setann di buat oleh leader artworkhex, di bawah pengawasan alwan,
+          saat ini telah merilis 2 season. <br />
+          <br />
           Perkenalkan ini adalah game setan season 1 dan season 2 berawal saat
           kami diberi project membuat game seadanya dan terciptalah game setan
           season 1 saat ini game setan S1 telah di update dan rilislah game
@@ -102,22 +110,48 @@
     </div>
     <!-- ----------------------------------------- -->
     <!-- konten 1 / produk 1 /season 1 -->
+
+    <div class="slide px-5 md1:px-12 content-center">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="/asset/GamePlay/s1/1.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asset/GamePlay/s1/2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asset/GamePlay/s1/3.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asset/GamePlay/s1/4.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asset/GamePlay/s1/5.png" alt="" />
+          </div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
     <div class="px-5 md1:px-12">
       <div class="mt-14 text-cent flex">
         <div>
           <video
-            class="hidden md2:w-[750px] lg1:w-[1150px] lg2:w-[1550px] md1:block"
+            class="hidden md2:w-[750px] lg1:w-[1350px] lg2:w-[1750px] xl:w-[2050] md1:block"
             autoplay
             loop
             muted
           >
             <source src="asset/season1.mp4" type="video/mp4" />
           </video>
-          <img
-            class="block w-[100%] md1:hidden md2:hidden lg1:hidden"
-            src="asset/s1.png"
-            alt=""
-          />
         </div>
         <a
           class="bd hidden ml-3 text-center font-light bg-neutral-700 hover:bg-neutral-800 md2:block md2:w-[100px] md1:text-6xl pl-5"
@@ -146,6 +180,37 @@
 
     <!-- ----------------------------------------- -->
     <!-- konten 1 / produk 2 / season 2 -->
+
+    <div class="slide px-5 md1:px-12 content-center">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="/asset/GamePlay/s2/1.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asset/GamePlay/s2/2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asset/GamePlay/s2/3.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asset/GamePlay/s2/4.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/asset/GamePlay/s2/5.png" alt="" />
+          </div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
     <div class="px-5 md1:px-12">
       <div class="flex mt-14">
         <a
@@ -154,11 +219,6 @@
           >download</a
         >
         <div>
-          <img
-            class="block w-[100%] md1:hidden md2:hidden lg1:hidden lg2:hidden an-center"
-            src="asset/s2.png"
-            alt=""
-          />
           <video
             class="hidden md2:w-[750px] lg1:w-[1150px] lg2:w-[1550px] md1:block"
             autoplay
@@ -247,16 +307,16 @@
     </div>
 
     <!-- judul utama 2 -->
-    <div
+    <!-- <div
       id="enemy"
       class="font-bold px-10 mt-14 mb-6 ml-5 lg1:ml-10 text-3xl sm2:text-5xl lg1:mb-20 an-top"
     >
       Gallery The Proses
-    </div>
+    </div> -->
 
-    <div class="mx-5 md1:px-10 block">
-      <!-- baris1 -->
-      <div class="grid grid-cols-1 md1:grid-cols-2 lg1:grid-cols-3 gap-5">
+    <!-- <div class="mx-5 md1:px-10 block"> -->
+    <!-- baris1 -->
+    <!-- <div class="grid grid-cols-1 md1:grid-cols-2 lg1:grid-cols-3 gap-5">
         <img
           class="mx-2 shadow-2xl hover:scale-125"
           src="asset/gallery/1.jpg"
@@ -282,7 +342,7 @@
           src="asset/gallery/5.jpg"
           alt="img"
         />
-        <!--  -->
+       
         <img
           class="mx-2 shadow-2xl hover:scale-125"
           src="asset/gallery/6.jpg"
@@ -308,7 +368,7 @@
           src="asset/gallery/10.jpg"
           alt="img"
         />
-        <!--  -->
+  
         <img
           class="mx-2 shadow-2xl hover:scale-125"
           src="asset/gallery/11.jpg"
@@ -334,7 +394,6 @@
           src="asset/gallery/15.jpg"
           alt="img"
         />
-        <!--  -->
         <img
           class="mx-2 shadow-2xl hover:scale-125"
           src="asset/gallery/16.jpg"
@@ -362,6 +421,10 @@
         />
       </div>
       <br />
+    </div> -->
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <div class="px-10">
+      <img class="" src="/asset/history.png" alt="" />
     </div>
 
     <!-- footer -->
@@ -440,5 +503,9 @@
         </div>
       </div>
     </footer>
+
+    <!-- javascript sliders -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/src/script.js"></script>
   </body>
 </html>
