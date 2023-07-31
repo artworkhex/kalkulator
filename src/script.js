@@ -1,3 +1,4 @@
+
 const swiper = new Swiper('.swiper', {
 
     // If we need pagination
